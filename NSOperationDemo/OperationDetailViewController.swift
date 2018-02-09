@@ -67,6 +67,8 @@ class OperationDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // commit1
+        
         imageViews = [img1, img2, img3, img4]
     }
     
