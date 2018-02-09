@@ -18,6 +18,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // commit 2
+        
         // set queue
         imageLoadQueue.maxConcurrentOperationCount = 2
         imageLoadQueue.qualityOfService = .userInitiated
