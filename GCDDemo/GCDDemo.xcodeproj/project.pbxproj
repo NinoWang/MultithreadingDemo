@@ -12,6 +12,7 @@
 		3F965578203EAFCA00E59E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F965576203EAFCA00E59E1D /* Main.storyboard */; };
 		3F96557A203EAFCA00E59E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F965579203EAFCA00E59E1D /* Assets.xcassets */; };
 		3F96557D203EAFCA00E59E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F96557B203EAFCA00E59E1D /* LaunchScreen.storyboard */; };
+		3F965585203EB3E300E59E1D /* DownloadImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F965584203EB3E300E59E1D /* DownloadImgViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F965579203EAFCA00E59E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F96557C203EAFCA00E59E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F96557E203EAFCA00E59E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F965584203EB3E300E59E1D /* DownloadImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImgViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3F965572203EAFCA00E59E1D /* AppDelegate.swift */,
 				3F965574203EAFCA00E59E1D /* ViewController.swift */,
+				3F965584203EB3E300E59E1D /* DownloadImgViewController.swift */,
 				3F965576203EAFCA00E59E1D /* Main.storyboard */,
 				3F965579203EAFCA00E59E1D /* Assets.xcassets */,
 				3F96557B203EAFCA00E59E1D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F965575203EAFCA00E59E1D /* ViewController.swift in Sources */,
+				3F965585203EB3E300E59E1D /* DownloadImgViewController.swift in Sources */,
 				3F965573203EAFCA00E59E1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
