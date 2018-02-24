@@ -27,11 +27,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     // MARK: - UITableViewDatasource UITableViewDelegate
     func numberOfSections(in tableView: UITableView) -> Int {
         return taskNames.count
@@ -267,6 +262,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     // MARK: - 队列的循环、挂起、恢复
+    // 循环
     func dispatchApply() {
         DispatchQueue.global().async {
             DispatchQueue.concurrentPerform(iterations: 10, execute: { (index) in
@@ -279,6 +275,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
+    // 挂起和恢复
     func suspendAndResume() {
         // 先挂起显示结果的任务 图片下载完成后恢复
         print("开始任务")
@@ -306,6 +303,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     // MARK: - GCD 其他方法
+    // 只执行一次
     func runOnce() {
         SingleTon.shared.func1()
     }
@@ -333,7 +331,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    
+    // 任务组
     func queueGroup() {
         let globalQueue = DispatchQueue.global()
         let group = DispatchGroup()
