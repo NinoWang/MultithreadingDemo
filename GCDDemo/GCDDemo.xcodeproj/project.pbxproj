@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1A310F20401F8D00D99AA7 /* SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A310E20401F8D00D99AA7 /* SingleTon.swift */; };
 		3F965573203EAFCA00E59E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F965572203EAFCA00E59E1D /* AppDelegate.swift */; };
 		3F965575203EAFCA00E59E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F965574203EAFCA00E59E1D /* ViewController.swift */; };
 		3F965578203EAFCA00E59E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F965576203EAFCA00E59E1D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1A310E20401F8D00D99AA7 /* SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTon.swift; sourceTree = "<group>"; };
 		3F96556F203EAFCA00E59E1D /* GCDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F965572203EAFCA00E59E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F965574203EAFCA00E59E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				3F965572203EAFCA00E59E1D /* AppDelegate.swift */,
 				3F965574203EAFCA00E59E1D /* ViewController.swift */,
 				3F965584203EB3E300E59E1D /* DownloadImgViewController.swift */,
+				3F1A310E20401F8D00D99AA7 /* SingleTon.swift */,
 				3F965576203EAFCA00E59E1D /* Main.storyboard */,
 				3F965579203EAFCA00E59E1D /* Assets.xcassets */,
 				3F96557B203EAFCA00E59E1D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F965575203EAFCA00E59E1D /* ViewController.swift in Sources */,
+				3F1A310F20401F8D00D99AA7 /* SingleTon.swift in Sources */,
 				3F965585203EB3E300E59E1D /* DownloadImgViewController.swift in Sources */,
 				3F965573203EAFCA00E59E1D /* AppDelegate.swift in Sources */,
 			);
