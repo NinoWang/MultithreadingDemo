@@ -3,8 +3,8 @@
 之前抽空过了一下多线程的内容，特放上这组Demo和大家一起学习交流。
 
 ## Demo效果
-<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation1.png"/>&nbsp;&nbsp;<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation2.gif"/>&nbsp;&nbsp;<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation3.gif"/>
-<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation4.gif"/>&nbsp;&nbsp;<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation5.gif"/>&nbsp;&nbsp;<img width="200" height="357" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/gcd.gif"/>
+<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation1.png"/>&nbsp;&nbsp;<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation2.gif"/>&nbsp;&nbsp;<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation3.gif"/>
+<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation4.gif"/>&nbsp;&nbsp;<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/operation5.gif"/>&nbsp;&nbsp;<img width="200" height="535" alt="Demo效果预览图" src="https://github.com/NinoWang/MultithreadingDemo/raw/master/imgs/gcd.gif"/>
 
 ## 文章详解
 * [Swift 实例演示 Operation 的用法][1]
